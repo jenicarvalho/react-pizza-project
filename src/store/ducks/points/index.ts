@@ -15,7 +15,7 @@ const reducer: Reducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         loading: false,
-        total: action.payload.data.total
+        total: action.payload.data[0].total
       }
     case PointsTypes.SAVE_POINTS:
       return {

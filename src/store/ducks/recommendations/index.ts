@@ -25,7 +25,7 @@ const reducer: Reducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         loading: false,
-        pizza: action.payload.data
+        pizza: action.payload.data[0]
       }
     case RecommendationTypes.GET_RECOMMENDATION_FAILURE:
       return { ...state, loading: false, error: true }

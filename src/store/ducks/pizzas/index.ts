@@ -35,9 +35,9 @@ const reducer: Reducer = (state = INITIAL_STATE, action) => {
       return {
         ...state,
         loading: false,
-        doughs: action.payload.data.doughs,
-        flavors: action.payload.data.flavors,
-        sizes: action.payload.data.sizes
+        doughs: action.payload.data[0].doughs,
+        flavors: action.payload.data[0].flavors,
+        sizes: action.payload.data[0].sizes
       }
     case PizzasTypes.GET_PIZZAS_FAILURE:
       return { ...state, loading: false, error: true }
