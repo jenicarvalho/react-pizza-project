@@ -1,0 +1,86 @@
+{
+  "pizzas": {
+    "doughs": [
+      {
+        "id": 1,
+        "title": "Napolitana",
+        "description": "Seu sabor e textura únicos, precisam ser assados em um forno a lenha com cúpula.",
+        "price": 10.00,
+        "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-napolitana-1200x738.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Nova-iorquina",
+        "description": "Frequentemente vendida em fatias grandes e largas, a pizza ao estilo de Nova York tem uma massa mais grossa e é levemente crocante por fora",
+        "price": 12.00,
+        "image": "https://www.daninoce.com.br/wp-content/uploads/2018/01/pizza-no-estilo-nova-iorquino-historia-onde-comer-dani-noce-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Siciliana",
+        "description": "A pizza siciliana é conhecida por sua massa grossa em forma de retângulo, geralmente com mais de um centímetro de espessura",
+        "price": 11.00,
+        "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-siciliana-3-730x449.jpg"
+      }
+    ],
+    "flavors": [
+      {
+        "id": 1,
+        "title": "Mussarela",
+        "description": "Simples e perfeita como tem que ser. A número 1 entre os paulistanos.",
+        "price": 20.00,
+        "image": "https://maniadeesfiha.com.br/wp-content/uploads/2019/03/Milla-Restaurante-e-Pizzaria-Mussarela.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Calabresa",
+        "description": "Uma pizza simples, mas que conquistou uma legião de fãs em todo o mundo.",
+        "price": 25.00,
+        "image": "https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2007/12/Pizza_calabresooo.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Marguerita",
+        "description": "Sabor ícone da Itália que leva apenas molho, muçarela, tomate e manjericão",
+        "price": 30.00,
+        "image": "https://www.ocladapizza.com.br/wp-content/uploads/2016/07/Blog-Histo%CC%81ria-da-Pizza-Marguerita-660x420.jpg"
+      }
+    ],
+    "sizes": [
+      {
+        "id": 1,
+        "title": "Broto",
+        "description": "Perfeita para uma pessoa, são 4 pedaços generosos.",
+        "price": 5.0,
+        "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-pizza-brotinho-2-1200x738.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Média",
+        "description": "Em 6 pedaços ela é ótima para casais.",
+        "price": 10.00,
+        "image": "https://uploads.metropoles.com/wp-content/uploads/2020/12/21155322/pizzahut-1280x720-1-600x400.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Grande",
+        "description": "Essa é para a família toda, ao todo são 8 pedaços grandes.",
+        "price": 20.00,
+        "image": "https://www.cidadeoferta.com.br/storage/offers/1205-dominos-pizza-londrina-grande-ou-media-2.jpg"
+      }    
+    ]
+  },
+  "recommendations": {
+    "id": 1,
+    "title": "Pizza de Frango",
+    "tamanho": "Grande",
+    "massa": "Napolitana",
+    "ingredientes": "Mussarela, azeite, frango com requeijão e pedaços de azeitona",
+    "price": 37.00,
+    "image": "https://www.comidaereceitas.com.br/img/sizeswp/1200x675/2019/08/Pizza_frango_requeijao-1.jpg",
+    "points": 90
+  },
+  "points": {
+    "total": 200
+  }
+}
