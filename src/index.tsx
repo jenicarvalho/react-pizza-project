@@ -8,11 +8,3 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-
-/**
- * 
- * TODOS
- * 4) SAVE ALL ON LOCAL STORAGE
- * 5) REDUX
- */
