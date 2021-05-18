@@ -1,5 +1,7 @@
 # React Pizza Project
 
+Demo na netlify: [https://react-pizza-project.netlify.app/](https://react-pizza-project.netlify.app/)
+
 ## Instruções
 
 #### É necessário utilizar o json-server como backend, use o arquivo *mock.json* na porta 4000.
