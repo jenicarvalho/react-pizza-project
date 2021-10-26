@@ -4,7 +4,7 @@ export const Container = styled.div`
   background-color: var(--lightGray);
   border-radius: 20px;
   padding: 20px;
-  margin: -50px auto 0;
+  margin: -30px auto 0;
   position: relative;
 
   h2 {
